@@ -18,6 +18,7 @@ To reproduce these experiments on Kaggle, follow these steps:
 2.  **Training** Add the dataset folder to the Kaggle **Input** directory.
     * Enable **T4 GPU** acceleration in the notebook settings.
     * **Note:** Execute the training notebooks for each folder first before attempting to run tests.
+    * In case you don't want to train. The trained model is also provided as a zipfile in each folder.
 
 3.  **Testing** Add the original dataset folder to the **Input** directory.
     * Add the output from the training step to the **Input** directory.
